@@ -43,7 +43,7 @@ A project may automate a process without delegating consequential decision right
 | [`mama-examples`](https://github.com/Measuring-Automation-Managing-Autonomy/mama-examples) | Synthetic case studies, worked end-to-end examples, sector profiles | planned — with pilots |
 | [`mama-learning`](https://github.com/Measuring-Automation-Managing-Autonomy/mama-learning) | Training modules, facilitator guides, adoption kits | optional, later |
 
-Every artifact carries a public status label — `draft`, `pilot`, `reviewed`, `stable`, `deprecated`, or `archived` (see [GOVERNANCE.md](https://github.com/Measuring-Automation-Managing-Autonomy/.github/blob/main/GOVERNANCE.md)).
+Every artifact carries a public status label — `draft`, `pilot`, `reviewed`, `stable`, `deprecated`, or `archived` (see [GOVERNANCE.md](https://github.com/Measuring-Automation-Managing-Autonomy/.github/blob/main/GOVERNANCE.md)). Phased delivery is tracked on the [MAMA Framework Roadmap](https://github.com/orgs/Measuring-Automation-Managing-Autonomy/projects/1) (CR MAMA-ORG-CR-001).
 
 ## Principles
 
