@@ -1,0 +1,48 @@
+name: Case Study / Worked Example
+description: Share a synthetic or approved case study, worked example, or sector profile input
+labels: ["case-study"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Case studies must use synthetic or explicitly approved, de-identified data. State the exact tool/schema/ruleset versions used
+        (e.g. MAMA metric library v0.1.0; `mama` ruleset v2.0.0, ledger schema 2). Report trade-offs and adverse effects alongside benefits.
+  - type: dropdown
+    id: pattern
+    attributes:
+      label: Automation/autonomy pattern demonstrated
+      options:
+        - Automation with low delegated autonomy
+        - Autonomy with mixed human/automated operation
+        - AI agent / network / software delivery / robotic system
+        - Portfolio / cross-project comparison
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context (synthetic or de-identified)
+      description: Sector, process, technology, affected groups, jurisdiction notes. No client-identifying data.
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: Exact versions used
+      description: MAMA repos/versions, upstream `mama` release, schemas.
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: What worked / what didn't
+      description: Outcomes vs baseline, usability observations, limitations, changes you had to make.
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Data permission
+      options:
+        - label: All data in this submission is synthetic or I have permission to publish it in de-identified form
+          required: true

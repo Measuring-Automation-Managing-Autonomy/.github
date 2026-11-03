@@ -1,0 +1,28 @@
+name: Security Report (non-sensitive / already public only)
+description: For non-sensitive security topics; use PRIVATE vulnerability reporting for anything exploitable
+labels: ["security"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ **Stop — is this an exploitable vulnerability?**
+        Then do NOT submit this form. Use the repository's **Security → Report a vulnerability** (private) per [SECURITY.md](https://github.com/Measuring-Automation-Managing-Autonomy/.github/blob/main/SECURITY.md).
+        This template is only for non-sensitive topics: hardening suggestions, documentation gaps in the threat model, dependency-upgrade requests, or issues already fixed and publicly visible.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Topic
+      options:
+        - Hardening suggestion
+        - Threat-model documentation gap
+        - Dependency upgrade request
+        - Publicly known issue needing coordination
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Detail
+      description: Include affected repository/version. No exploit chains, no real data.
+    validations:
+      required: true

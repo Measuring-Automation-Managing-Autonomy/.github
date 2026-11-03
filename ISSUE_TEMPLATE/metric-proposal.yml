@@ -1,0 +1,52 @@
+name: Metric Proposal
+description: Propose a new metric card or a revision to an existing automation/value/impact metric
+labels: ["metric-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        New cards must follow the [metric-card schema](https://github.com/Measuring-Automation-Managing-Autonomy/mama-metrics/blob/main/schema/metric-card.schema.json):
+        purpose, formula, unit, denominator, inclusion/exclusion rules, data source, sampling, time window, owner, baseline, target, uncertainty, limitations, review cadence.
+        No universal targets. Do not propose composite scores mixing automation metrics with `mama` autonomy outputs.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - New metric card
+        - Revision to an existing card
+        - Taxonomy/schema change
+        - Deprecation
+    validations:
+      required: true
+  - type: input
+    id: card-id
+    attributes:
+      label: Metric card ID (existing or proposed slug)
+      placeholder: e.g. straight-through-completion-rate
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Decision the metric informs
+      description: What investment or operating decision does this measure support?
+    validations:
+      required: true
+  - type: textarea
+    id: definition
+    attributes:
+      label: Draft definition
+      description: Numerator, denominator, unit, inclusion/exclusion rules, data source, time window.
+    validations:
+      required: true
+  - type: textarea
+    id: pitfalls
+    attributes:
+      label: Known pitfalls & adverse effects to watch
+      description: e.g. gaming, coverage bias, distributional effects across affected groups.
+  - type: textarea
+    id: source
+    attributes:
+      label: Data availability & prior use
+      description: Where the data comes from; any prior baselining/attribution experience. Synthetic examples only.

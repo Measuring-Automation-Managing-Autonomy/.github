@@ -1,0 +1,44 @@
+name: Integration Need
+description: Request a new adapter, format, or interface connecting MAMA to upstream `mama` or to external systems
+labels: ["integration"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        MAMA adapters consume versioned outputs and never reimplement upstream `mama` scoring. Requests should specify interfaces,
+        not preferred vendors (see the CR/charter's data-minimization and local-first requirements).
+  - type: dropdown
+    id: direction
+    attributes:
+      label: Integration direction
+      options:
+        - Import from upstream `mama` (assessments / ledgers)
+        - Export from MAMA to upstream `mama`
+        - MAMA use-case ↔ `mama` domain/contract linkage
+        - External system ↔ MAMA (process mining, GRC, observability, finance, …)
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: What can't you do today?
+      description: The job-to-be-done, with the MAMA use case it belongs to.
+    validations:
+      required: true
+  - type: textarea
+    id: versions-formats
+    attributes:
+      label: Versions, formats & systems involved
+      description: e.g. upstream `mama` v2.0.0 (ledger schema 2); CSV/YAML/JSON; API docs if an external system.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints
+      description: Local/offline requirements, data minimization, access controls, retention limits.
+  - type: textarea
+    id: sample
+    attributes:
+      label: Sample file (synthetic only)
+      description: A redacted/synthetic sample of the format to support. Never real pilot data.

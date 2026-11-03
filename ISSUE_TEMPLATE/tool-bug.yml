@@ -1,0 +1,44 @@
+name: Tool Bug Report
+description: Report a defect in a MAMA-owned tool or adapter
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For security vulnerabilities use private vulnerability reporting (see SECURITY.md) — do not file a public issue.
+  - type: input
+    id: repo-tool
+    attributes:
+      label: Tool & version
+      placeholder: e.g. mama-integrations 0.1.0 (adapter), or validate_cards.py from mama-metrics
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the exact error output. Redact anything that could identify an organization.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction
+      description: Synthetic input file(s) + command. Never attach real assessment or ledger data.
+    validations:
+      required: true
+  - type: dropdown
+    id: upstream-version
+    attributes:
+      label: Upstream `mama` version in use (if relevant)
+      options:
+        - "v2.0.0 (ruleset 2.0.0, ledger schema 2)"
+        - v1.x (retired scale)
+        - not applicable
+        - other / unknown

@@ -1,0 +1,46 @@
+name: Framework Proposal
+description: Propose a concept, principle, architecture element, or lifecycle change in mama-framework
+labels: ["framework-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Proposals for the core model are open for comment at least 7 days before an ADR is recorded.
+        Remember: MAMA (Measuring Automation & Measuring Autonomy) is not the `mama` method — proposals to change `mama` scoring belong upstream.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or gap
+      description: What can organizations not do or decide today? Cite the charter/architecture section if one exists.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: The concept, definition, or diagram change — with the exact terminology you propose.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Framework area
+      options:
+        - Charter / principles
+        - Reference architecture / traceability model
+        - Lifecycle / roles
+        - Implementation method / templates
+        - `mama` integration contract
+        - External mappings / crosswalk
+        - Governance / process
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence & context
+      description: Use cases, pilot observations, or external references (with version). Synthetic data only.
