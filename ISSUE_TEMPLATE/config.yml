@@ -4,5 +4,5 @@ contact_links:
     url: https://github.com/Measuring-Automation-Managing-Autonomy/.github/blob/main/SECURITY.md
     about: Report vulnerabilities via private vulnerability reporting — never a public issue.
   - name: `mama` method (measuring and managing autonomy)
-    url: https://github.com/emmanuel-a-otchere/MeasuringAndManagingAutonomy
+    url: https://github.com/emmanuel-a-otchere/measuring-and-managing-autonomy
     about: Questions or proposals about the upstream `mama` autonomy method, its scoring, or its schema belong in its canonical home.

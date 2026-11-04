@@ -12,6 +12,6 @@ Where to bring what:
 | Report a bug in a MAMA tool | the tool's repository — [Bug Report](https://github.com/Measuring-Automation-Managing-Autonomy/mama-integrations/issues/new?template=tool-bug.yml) |
 | Share a case study or worked example | [`mama-framework` or `mama-metrics` — Case Study](https://github.com/Measuring-Automation-Managing-Autonomy/mama-framework/issues/new?template=case-study.yml) |
 | Report a security vulnerability | [SECURITY.md](SECURITY.md) — privately, never a public issue |
-| Ask about or contribute to the `mama` method itself | [`emmanuel-a-otchere/MeasuringAndManagingAutonomy`](https://github.com/emmanuel-a-otchere/MeasuringAndManagingAutonomy) — the canonical `mama` home |
+| Ask about or contribute to the `mama` method itself | [`emmanuel-a-otchere/measuring-and-managing-autonomy`](https://github.com/emmanuel-a-otchere/measuring-and-managing-autonomy) — the canonical `mama` home |
 
 Response expectations: maintainers triage weekly (see [CONTRIBUTING.md](CONTRIBUTING.md)). There is no paid support SLA; this is an open community project.

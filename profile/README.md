@@ -17,7 +17,7 @@ MAMA integrates both views so leaders can manage their interplay — without col
 |---|---|---|
 | Expansion | Measuring Automation & Measuring Autonomy | measuring and managing autonomy |
 | Role | Umbrella framework, architecture, shared toolset | One autonomy method used *within* MAMA |
-| Canonical home | This organization | [`emmanuel-a-otchere/MeasuringAndManagingAutonomy`](https://github.com/emmanuel-a-otchere/MeasuringAndManagingAutonomy) |
+| Canonical home | This organization | [`emmanuel-a-otchere/measuring-and-managing-autonomy`](https://github.com/emmanuel-a-otchere/measuring-and-managing-autonomy) |
 | Current version | Framework & schema releases here | Ruleset v2.0.0, ledger schema 2 |
 | Scale | Does not define one | L0 Submarine Line (no grant) through L1–L5; dimension scores 0–5; weakest link `min(D3, D4, D6)` |
 
@@ -70,4 +70,4 @@ All public MAMA materials are **pilot-stage until the multi-organization pilot**
 
 - General & proposals: open an issue in the relevant repository (see [SUPPORT.md](https://github.com/Measuring-Automation-Managing-Autonomy/.github/blob/main/SUPPORT.md))
 - Security: follow [SECURITY.md](https://github.com/Measuring-Automation-Managing-Autonomy/.github/blob/main/SECURITY.md) — do not open public issues for vulnerabilities
-- `mama` method itself: its maintainers, at [`emmanuel-a-otchere/MeasuringAndManagingAutonomy`](https://github.com/emmanuel-a-otchere/MeasuringAndManagingAutonomy)
+- `mama` method itself: its maintainers, at [`emmanuel-a-otchere/measuring-and-managing-autonomy`](https://github.com/emmanuel-a-otchere/measuring-and-managing-autonomy)

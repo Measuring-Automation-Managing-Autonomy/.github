@@ -24,7 +24,7 @@ Dual-licensed repositories state the split in their README and carry both licens
 
 ## Relationship to the upstream `mama` method
 
-The lowercase `mama` method (*measuring and managing autonomy*) is owned and maintained at [`emmanuel-a-otchere/MeasuringAndManagingAutonomy`](https://github.com/emmanuel-a-otchere/MeasuringAndManagingAutonomy) under its own license. MAMA:
+The lowercase `mama` method (*measuring and managing autonomy*) is owned and maintained at [`emmanuel-a-otchere/measuring-and-managing-autonomy`](https://github.com/emmanuel-a-otchere/measuring-and-managing-autonomy) under its own license. MAMA:
 
 - **consumes** its versioned outputs (assessments, ledgers) through documented interfaces;
 - **does not fork, vendor, or reimplement** its scoring logic without an explicit maintainer agreement, compatible licensing, provenance records, and a compatibility plan (recorded as an ADR);
