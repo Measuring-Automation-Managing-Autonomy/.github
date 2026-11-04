@@ -38,8 +38,8 @@ A project may automate a process without delegating consequential decision right
 | [`mama-framework`](https://github.com/Measuring-Automation-Managing-Autonomy/mama-framework) | Source of truth for what MAMA means: charter, glossary, reference architecture, lifecycle, templates, integration contract, external mappings | draft |
 | [`mama-metrics`](https://github.com/Measuring-Automation-Managing-Autonomy/mama-metrics) | Versioned metric taxonomy, metric-card schema, starter automation/value/impact metric library, baselining & attribution guidance | draft |
 | [`mama-integrations`](https://github.com/Measuring-Automation-Managing-Autonomy/mama-integrations) | Version-pinned import/export adapters connecting MAMA use cases to upstream `mama` ledgers and assessments; compatibility matrix | draft |
-| [`mama-tools`](https://github.com/Measuring-Automation-Managing-Autonomy/mama-tools) | Reference tooling: use-case registry, metric calculator, evidence record, portfolio view | planned — Phase 3 |
-| [`mama-conformance`](https://github.com/Measuring-Automation-Managing-Autonomy/mama-conformance) | Shared fixtures and conformance checks for schemas and integrations | planned — after interfaces stabilize |
+| [`mama-tools`](https://github.com/Measuring-Automation-Managing-Autonomy/mama-tools) | Reference tooling: use-case registry, metric calculator, side-by-side portfolio view (never blended) | **live** — v0.1.0 |
+| [`mama-conformance`](https://github.com/Measuring-Automation-Managing-Autonomy/mama-conformance) | Shared conformance fixtures for MAMA schemas (17 fixtures, 5 suites, CI-gated) | **live** — v0.1.0 |
 | [`mama-examples`](https://github.com/Measuring-Automation-Managing-Autonomy/mama-examples) | Synthetic case studies, worked end-to-end examples, sector profiles | planned — with pilots |
 | [`mama-learning`](https://github.com/Measuring-Automation-Managing-Autonomy/mama-learning) | Training modules, facilitator guides, adoption kits | optional, later |
 
