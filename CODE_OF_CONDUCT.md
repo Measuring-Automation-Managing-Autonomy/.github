@@ -4,7 +4,7 @@
 
 ## Our Pledge
 
-We as members, contributors, and leaders pledge to make participation in the MAMA (Measuring Automation & Measuring Autonomy) community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We as members, contributors, and leaders pledge to make participation in the MAMA (Measuring Automation, Managing Autonomy) community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community. MAMA's subject matter — workforce impact, affected people, fairness — demands that we hold ourselves to this standard in this community first.
 

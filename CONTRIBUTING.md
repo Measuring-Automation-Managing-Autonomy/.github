@@ -1,13 +1,13 @@
 # Contributing to MAMA
 
-**Status:** draft · Thanks for helping build MAMA (Measuring Automation & Measuring Autonomy)!
+**Status:** draft · Thanks for helping build MAMA (Measuring Automation, Managing Autonomy)!
 
 This guide covers the whole organization. Each repository may add specifics in its own `CONTRIBUTING.md` or README.
 
 ## Ground rules
 
 1. **Code of conduct** — everyone operates under the [Code of Conduct](CODE_OF_CONDUCT.md).
-2. **Naming discipline is binding.** `MAMA` (uppercase) is the umbrella framework — *Measuring Automation & Measuring Autonomy*. `` `mama` `` (lowercase, in code formatting) is the separate autonomy method — *measuring and managing autonomy*, owned at [`emmanuel-a-otchere/measuring-and-managing-autonomy`](https://github.com/emmanuel-a-otchere/measuring-and-managing-autonomy). Never merge the names, scores, or homes. First reference: *"MAMA (Measuring Automation & Measuring Autonomy) uses the `mama` (measuring and managing autonomy) method for its autonomy-governance component."*
+2. **Naming discipline is binding.** `MAMA` (uppercase) is the umbrella framework — *Measuring Automation, Managing Autonomy*. `` `mama` `` (lowercase, in code formatting) is the separate autonomy method — *measuring and managing autonomy*, owned at [`emmanuel-a-otchere/measuring-and-managing-autonomy`](https://github.com/emmanuel-a-otchere/measuring-and-managing-autonomy). Never merge the names, scores, or homes. First reference: *"MAMA (Measuring Automation, Managing Autonomy) uses the `mama` (measuring and managing autonomy) method for its autonomy-governance component."*
 3. **Stay in your lane.** Proposals to change `mama` scoring, levels, or schema belong upstream. MAMA repos consume `mama` outputs; they never redefine them.
 4. **No composite scores.** Don't propose aggregating automation metrics and autonomy outputs into a single score (see [ADR-003](https://github.com/Measuring-Automation-Managing-Autonomy/mama-framework/blob/main/decisions/adr-003-no-composite-score.md)).
 5. **No sensitive data.** Issues, PRs, fixtures, and examples must contain only synthetic data. See the security policy for responsible disclosure.

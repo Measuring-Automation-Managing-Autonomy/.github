@@ -1,4 +1,4 @@
-<!-- Naming discipline: MAMA = Measuring Automation & Measuring Autonomy (this org).
+<!-- Naming discipline: MAMA = Measuring Automation, Managing Autonomy (this org).
      `mama` (lowercase) = measuring and managing autonomy, upstream at
      emmanuel-a-otchere/measuring-and-managing-autonomy. Never merge the two. -->
 

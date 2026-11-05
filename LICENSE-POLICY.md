@@ -32,11 +32,11 @@ The lowercase `mama` method (*measuring and managing autonomy*) is owned and mai
 
 ## Attribution
 
-When reusing MAMA definitions, attribute as: *"Definition from the MAMA framework (Measuring Automation & Measuring Autonomy), `<repo>` v`<version>`, CC-BY-4.0."* Link the source file. Attribution for the `mama` method follows the upstream repository's terms.
+When reusing MAMA definitions, attribute as: *"Definition from the MAMA framework (Measuring Automation, Managing Autonomy), `<repo>` v`<version>`, CC-BY-4.0."* Link the source file. Attribution for the `mama` method follows the upstream repository's terms.
 
 ## Naming & identity
 
-"MAMA" (Measuring Automation & Measuring Autonomy) and the lowercase `mama` method are distinct identities with distinct homes. Derivative works must not present themselves as the MAMA organization, imply the organization's endorsement, or merge the two names' scores or outputs. The case-sensitive naming rules in the [organization profile](profile/README.md) are binding.
+"MAMA" (Measuring Automation, Managing Autonomy) and the lowercase `mama` method are distinct identities with distinct homes. Derivative works must not present themselves as the MAMA organization, imply the organization's endorsement, or merge the two names' scores or outputs. The case-sensitive naming rules in the [organization profile](profile/README.md) are binding.
 
 ## IP & provenance
 

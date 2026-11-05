@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Proposals for the core model are open for comment at least 7 days before an ADR is recorded.
-        Remember: MAMA (Measuring Automation & Measuring Autonomy) is not the `mama` method — proposals to change `mama` scoring belong upstream.
+        Remember: MAMA (Measuring Automation, Managing Autonomy) is not the `mama` method — proposals to change `mama` scoring belong upstream.
   - type: textarea
     id: problem
     attributes:

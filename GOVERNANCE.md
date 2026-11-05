@@ -2,7 +2,7 @@
 
 **Status:** draft · **Applies to:** every repository, schema, tool, and published asset in this organization · **Owned by:** MAMA Stewardship Council
 
-This document defines how MAMA (Measuring Automation & Measuring Autonomy) is stewarded. The canonical charter lives in [`mama-framework/charter.md`](https://github.com/Measuring-Automation-Managing-Autonomy/mama-framework/blob/main/charter.md); this file is the organization-level operating agreement.
+This document defines how MAMA (Measuring Automation, Managing Autonomy) is stewarded. The canonical charter lives in [`mama-framework/charter.md`](https://github.com/Measuring-Automation-Managing-Autonomy/mama-framework/blob/main/charter.md); this file is the organization-level operating agreement.
 
 ## 1. Stewardship Council
 

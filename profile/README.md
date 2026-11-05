@@ -1,4 +1,4 @@
-# MAMA — Measuring Automation & Measuring Autonomy
+# MAMA — Measuring Automation, Managing Autonomy
 
 **MAMA** is an organization-backed, open framework and toolset that helps organizations plan, assess, govern, and improve investments in automation and autonomy — across projects involving AI and other technologies.
 
@@ -11,11 +11,11 @@ MAMA integrates both views so leaders can manage their interplay — without col
 
 ## Naming: MAMA and `mama` are different things
 
-> **First reference:** MAMA (Measuring Automation & Measuring Autonomy) uses the `mama` (measuring and managing autonomy) method for its autonomy-governance component.
+> **First reference:** MAMA (Measuring Automation, Managing Autonomy) uses the `mama` (measuring and managing autonomy) method for its autonomy-governance component.
 
 | | **MAMA** (this organization) | **`mama`** (upstream method) |
 |---|---|---|
-| Expansion | Measuring Automation & Measuring Autonomy | measuring and managing autonomy |
+| Expansion | Measuring Automation, Managing Autonomy | measuring and managing autonomy |
 | Role | Umbrella framework, architecture, shared toolset | One autonomy method used *within* MAMA |
 | Canonical home | This organization | [`emmanuel-a-otchere/measuring-and-managing-autonomy`](https://github.com/emmanuel-a-otchere/measuring-and-managing-autonomy) |
 | Current version | Framework & schema releases here | Ruleset v2.0.0, ledger schema 2 |
