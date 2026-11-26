@@ -1,4 +1,4 @@
-# MAMA — Measuring Automation, Managing Autonomy
+# Measuring Automation, Managing Autonomy (MAMA) 
 
 **MAMA** is an organization-backed, open framework and toolset that helps organizations plan, assess, govern, and improve investments in automation and autonomy — across projects involving AI and other technologies.
 
